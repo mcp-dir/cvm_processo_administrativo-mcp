@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/cvm_processo_administrativo-mcp",
+  "title": "CVM: Processos Administrativos Sancionadores",
+  "description": "CVM: Court Cases Administrativos Sancionadores, official-source lookup. Platform-hosted, pay per que",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/cvm_processo_administrativo-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_cvm_processo_administrativo"
+    }
+  ]
+}
